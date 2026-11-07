@@ -899,12 +899,13 @@ elif st.session_state.step == total_q:
     for dept in result_data["depts"]:
         st.markdown(f"- **{dept}**")
 
-    st.markdown(
+st.markdown(
         """
     <div style="background-color: #D1FAE5; color: #065F46; padding: 16px; border-radius: 8px; margin: 16px 0; border: 1px solid #A7F3D0;">
-        💡 <b>글로벌자율학부(자유전공)의 특별함!</b><br>
-        지금 나온 결과가 마음에 들거나, 혹은 여러 학과 사이에서 고민되나요?<br>
-        <b>글로벌자율학부(자유전공)</b>에 입학하면 <b>1학년 동안 이 학과들의 수업을 들어보고</b> 나에게 정말 맞는 전공을 2학년 때 자유롭게 선택할 수 있습니다!
+        💡 <b>자유전공 1학년 여러분, 최종 전공 선택의 순간입니다!</b><br>
+        어느덧 2학년 진입 학과를 확정해야 하는 마감 시점이 찾아왔습니다.<br>
+        그동안 자유전공에서 고민하고 다져온 시간들을 바탕으로, 나에게 가장 잘 맞는 학과 트랙을 결정할 차례입니다.<br>
+        <b>이번 MBTI 결과를 참고해 본인의 적성을 최종 점검해 보고, 스스로를 믿으며 자신 있게 후회 없는 선택을 내리시길 응원합니다!</b>
     </div>
     """,
         unsafe_allow_html=True,
