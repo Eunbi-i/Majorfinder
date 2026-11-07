@@ -899,7 +899,8 @@ elif st.session_state.step == total_q:
     for dept in result_data["depts"]:
         st.markdown(f"- **{dept}**")
 
-st.markdown(
+    # 🎯 자유전공 재학생 대상 1안 마감 멘트 반영
+    st.markdown(
         """
     <div style="background-color: #D1FAE5; color: #065F46; padding: 16px; border-radius: 8px; margin: 16px 0; border: 1px solid #A7F3D0;">
         💡 <b>자유전공 1학년 여러분, 최종 전공 선택의 순간입니다!</b><br>
