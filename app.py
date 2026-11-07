@@ -610,7 +610,7 @@ total_q = len(questions)
 # ------------------------------------
 if st.session_state.step == -1:
     st.markdown(
-        '<div class="header-sub1">제주대학교 자유전공을 위한 전공 탐색 이벤트</div>',
+        '<div class="header-sub1">제주대학교 자유전공을 위한 전공 추천 프로그램</div>',
         unsafe_allow_html=True,
     )
     st.markdown(
@@ -662,7 +662,7 @@ if st.session_state.step == -1:
 # ------------------------------------
 elif st.session_state.step < total_q:
     st.markdown(
-        '<div class="header-sub1">제주대학교 자유전공을 위한 전공 탐색 이벤트</div>',
+        '<div class="header-sub1">제주대학교 자유전공을 위한 전공 추천 프로그램</div>',
         unsafe_allow_html=True,
     )
     st.markdown(
@@ -762,7 +762,7 @@ elif st.session_state.step == total_q:
     st.balloons()
 
     st.markdown(
-        '<div class="header-sub1">제주대학교 자유전공을 위한 전공 탐색 이벤트</div>',
+        '<div class="header-sub1">제주대학교 자유전공을 위한 전공 추천 프로그램</div>',
         unsafe_allow_html=True,
     )
     st.markdown(
