@@ -610,7 +610,7 @@ total_q = len(questions)
 # ------------------------------------
 if st.session_state.step == -1:
     st.markdown(
-        '<div class="header-sub1">제주대학교 전공체험의 날 - 글로벌자율학부 자유전공 체험</div>',
+        '<div class="header-sub1">제주대학교 자유전공을 위한 전공 탐색 이벤트</div>',
         unsafe_allow_html=True,
     )
     st.markdown(
@@ -644,7 +644,7 @@ if st.session_state.step == -1:
         <div class="start-container">
             <h2>나에게 딱 맞는 전공은 무엇일까?</h2>
             <p>간단한 20개 질문을 통해 나의 적성과 성향을 분석하고,<br>
-            <b>제주대학교 자유전공 입학 후 진입 가능한 추천 학과 트랙</b>을 확인해 보세요!</p>
+            <b>제주대학교 자유전공에서 진출 가능한 추천 학과 트랙</b>을 확인해 보세요!</p>
             <p style="font-size: 13px; color: #64748B; margin-top: 12px;">⏱️ 소요 시간: 약 2~3분</p>
         </div>
         """,
@@ -662,7 +662,7 @@ if st.session_state.step == -1:
 # ------------------------------------
 elif st.session_state.step < total_q:
     st.markdown(
-        '<div class="header-sub1">제주대학교 전공체험의 날 - 글로벌자율학부 자유전공 체험</div>',
+        '<div class="header-sub1">제주대학교 자유전공을 위한 전공 탐색 이벤트</div>',
         unsafe_allow_html=True,
     )
     st.markdown(
@@ -762,7 +762,7 @@ elif st.session_state.step == total_q:
     st.balloons()
 
     st.markdown(
-        '<div class="header-sub1">제주대학교 전공체험의 날 - 글로벌자율학부 자유전공 체험</div>',
+        '<div class="header-sub1">제주대학교 자유전공을 위한 전공 탐색 이벤트</div>',
         unsafe_allow_html=True,
     )
     st.markdown(
@@ -897,7 +897,7 @@ elif st.session_state.step == 99:
     )
 
     st.markdown(
-        '<div class="header-sub1">제주대학교 전공체험의 날 - 글로벌자율학부 자유전공 체험</div>',
+        '<div class="header-sub1">제주대학교 자유전공을 위한 전공 탐색 이벤트</div>',
         unsafe_allow_html=True,
     )
     st.markdown(
