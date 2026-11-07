@@ -12,6 +12,25 @@ st.set_page_config(page_title="전공탐색 MBTI", page_icon="🎓", layout="cen
 st.markdown(
     """
 <style>
+    /* 🚫 오른쪽 상단 Fork, ⚙️ 메뉴, 상단 헤더, 하단 워터마크 완전히 숨기기 */
+    div[data-testid="stToolbar"] {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    header[data-testid="stHeader"] {
+        display: none !important;
+        background: transparent !important;
+    }
+    div[data-testid="stStatusWidget"],
+    #MainMenu, 
+    footer {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .block-container {
+        padding-top: 1.5rem !important;
+    }
+
     /* 전체 앱 배경을 흰색으로 고정 */
     .stApp {
         background-color: #FFFFFF !important;
